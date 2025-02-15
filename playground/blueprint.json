@@ -22,7 +22,7 @@
             "step": "importWxr",
             "file": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/WordPress/theme-test-data/master/wordpress.xml"
+                "url": "https://github.com/BhargavBhandari90/wp-faq-block/blob/main/playground/wordpress.xml"
             }
         }
     ]
