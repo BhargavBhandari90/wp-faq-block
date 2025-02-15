@@ -9,7 +9,12 @@
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
-		"html": false
+		"html": false,
+		"color": {
+			"background": true,
+			"text": false,
+			"gradients": true
+		}
 	},
 	"attributes": {
 		"faqs":{
