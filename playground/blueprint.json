@@ -7,6 +7,12 @@
 			"username": "admin"
 		},
         {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "WP FAQ Block"
+            }
+        },
+        {
             "step": "installPlugin",
             "pluginData": {
                 "resource": "url",
