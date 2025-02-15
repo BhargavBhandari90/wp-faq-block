@@ -1,7 +1,8 @@
 <?php
 /**
- * Plugin Name:       Wp Faq Block
+ * Plugin Name:       WP FAQ Block
  * Description:       Example block scaffolded with Create Block tool.
+ * Author:            BuntyWP
  * Version:           0.1.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
@@ -28,3 +29,11 @@ function create_block_wp_faq_block_block_init() {
 	register_block_type( __DIR__ . '/build/wp-faq-block' );
 }
 add_action( 'init', 'create_block_wp_faq_block_block_init' );
+
+function create_block_head() {
+	?>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<?php
+}
+
+add_action( 'wp_head', 'create_block_head' );

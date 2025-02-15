@@ -3,20 +3,25 @@
 	"apiVersion": 3,
 	"name": "create-block/wp-faq-block",
 	"version": "0.1.0",
-	"title": "Wp Faq Block",
+	"title": "WP FAQ Block",
 	"category": "widgets",
-	"icon": "smiley",
+	"icon": "info",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
 		"html": false,
 		"color": {
 			"background": true,
-			"text": false,
-			"gradients": true
+			"text": true,
+			"gradients": true,
+			"heading": true
 		}
 	},
 	"attributes": {
+		"title":{
+			"type": "string",
+            "default": "FAQs"
+		},
 		"faqs":{
 			"type": "array",
             "default": [],
