@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.7.2" created="2025-02-15 08:16" -->
+	<!-- generator="WordPress/6.7.2" created="2025-02-23 17:30" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>WP FAQ Block Demo</title>
 	<link>http://localhost:8881</link>
 	<description>Demo from BuntyWP</description>
-	<pubDate>Sat, 15 Feb 2025 08:16:02 +0000</pubDate>
+	<pubDate>Sun, 23 Feb 2025 17:30:53 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8881</wp:base_site_url>
@@ -343,15 +343,15 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8881/?page_id=10</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:create-block/wp-faq-block {"faqs":[{"question":"Question 1","answer":"Answer 1"},{"question":"Question 2","answer":"Answer 2"},{"question":"Question 3","answer":"Answer 3"}]} -->
-<div class="wp-block-create-block-wp-faq-block"><details><summary>Question 1</summary><p>Answer 1</p></details><details><summary>Question 2</summary><p>Answer 2</p></details><details><summary>Question 3</summary><p>Answer 3</p></details></div>
+		<content:encoded><![CDATA[<!-- wp:create-block/wp-faq-block {"faqs":[{"question":"Shipping","answer":"We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations."},{"question":"Returns","answer":"We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations."},{"question":"Exchange","answer":"We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations."}]} -->
+<div class="wp-block-create-block-wp-faq-block"><div class="relative w-full bg-white px-6 pt-10 pb-8 mt-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-2xl sm:rounded-lg sm:px-10"><div class="mx-auto px-5"><div class="flex flex-col items-center"><h2 class="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl">FAQs</h2></div><div class="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200"><div class="py-5"><details class="group"><summary class="flex cursor-pointer list-none items-center justify-between font-medium"><span>Shipping</span><span class="transition group-open:rotate-180"><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg></span></summary><p class="group-open:animate-fadeIn mt-3 text-neutral-600">We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations.</p></details></div><div class="py-5"><details class="group"><summary class="flex cursor-pointer list-none items-center justify-between font-medium"><span>Returns</span><span class="transition group-open:rotate-180"><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg></span></summary><p class="group-open:animate-fadeIn mt-3 text-neutral-600">We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations.</p></details></div><div class="py-5"><details class="group"><summary class="flex cursor-pointer list-none items-center justify-between font-medium"><span>Exchange</span><span class="transition group-open:rotate-180"><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg></span></summary><p class="group-open:animate-fadeIn mt-3 text-neutral-600">We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations.</p></details></div></div></div></div></div>
 <!-- /wp:create-block/wp-faq-block -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2025-02-15 08:15:21]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-02-15 08:15:21]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-02-15 08:15:21]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-02-15 08:15:21]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-02-23 17:30:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-02-23 17:30:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[faq]]></wp:post_name>
