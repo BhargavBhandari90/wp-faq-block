@@ -12,31 +12,37 @@
 		"html": false,
 		"color": {
 			"background": true,
-			"text": true,
-			"gradients": true,
-			"heading": true
+			"text": true
 		}
 	},
 	"attributes": {
-		"title":{
+		"title": {
 			"type": "string",
-            "default": "FAQs"
+			"default": "FAQs"
 		},
-		"faqs":{
+		"faqs": {
 			"type": "array",
-            "default": [],
-            "items": {
-                "type": "object",
-                "properties": {
-                    "question": {
-                        "type": "string"
-                    },
-                    "answer": {
-                        "type": "string"
-                    }
-                },
-                "required": [ "question", "answer" ]
-            }
+			"default": [],
+			"items": {
+				"type": "object",
+				"properties": {
+					"question": {
+						"type": "string"
+					},
+					"answer": {
+						"type": "string"
+					}
+				},
+				"required": [ "question", "answer" ]
+			}
+		},
+		"faqtype": {
+			"type": "string",
+			"default": "dropdown"
+		},
+		"selected": {
+			"type": "boolean",
+			"default": false
 		}
 	},
 	"textdomain": "wp-faq-block",

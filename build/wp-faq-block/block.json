@@ -12,9 +12,7 @@
     "html": false,
     "color": {
       "background": true,
-      "text": true,
-      "gradients": true,
-      "heading": true
+      "text": true
     }
   },
   "attributes": {
@@ -40,6 +38,14 @@
           "answer"
         ]
       }
+    },
+    "faqtype": {
+      "type": "string",
+      "default": "dropdown"
+    },
+    "selected": {
+      "type": "boolean",
+      "default": false
     }
   },
   "textdomain": "wp-faq-block",

@@ -18,6 +18,34 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+if ( ! defined( 'WPFAQ_VERSION' ) ) {
+	/**
+	 * The version of the plugin.
+	 */
+	define( 'WPFAQ_VERSION', '0.1.0' );
+}
+
+if ( ! defined( 'BPRPA_PATH' ) ) {
+	/**
+	 *  The server file system path to the plugin directory.
+	 */
+	define( 'BPRPA_PATH', plugin_dir_path( __FILE__ ) );
+}
+
+if ( ! defined( 'BPRPA_URL' ) ) {
+	/**
+	 * The url to the plugin directory.
+	 */
+	define( 'BPRPA_URL', plugin_dir_url( __FILE__ ) );
+}
+
+if ( ! defined( 'BPRPA_BASE_NAME' ) ) {
+	/**
+	 * The url to the plugin directory.
+	 */
+	define( 'BPRPA_BASE_NAME', plugin_basename( __FILE__ ) );
+}
+
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
  * Behind the scenes, it registers also all assets so they can be enqueued
@@ -30,10 +58,9 @@ function create_block_wp_faq_block_block_init() {
 }
 add_action( 'init', 'create_block_wp_faq_block_block_init' );
 
-function create_block_head() {
-	?>
-	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-	<?php
+function create_block_wp_faq_clock_scripts() {
+	wp_enqueue_style( 'wp-faq-clock', BPRPA_URL . 'assets/css/block.css' );
 }
 
-add_action( 'wp_head', 'create_block_head' );
+add_action( 'wp_enqueue_scripts', 'create_block_wp_faq_clock_scripts' );
+// add_action( 'enqueue_block_editor_assets', 'create_block_wp_faq_clock_scripts' );
