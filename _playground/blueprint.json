@@ -28,7 +28,7 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://github.com/BhargavBhandari90/wp-faq-block/blob/main/_playground/wordpress.xml"
+				"url": "https://raw.githubusercontent.com/BhargavBhandari90/wp-faq-block/refs/heads/main/_playground/wordpress.xml"
 			}
 		}
 	]
